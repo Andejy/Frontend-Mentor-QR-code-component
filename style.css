@@ -18,14 +18,16 @@ background: hsl(220, 15%, 55%);
     width: 100vw;
 }
 
-.InfoContainer{    
+.InfoContainer{
+    position: relative;    
     background: hsl(0, 0%, 100%);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 5px;
-    width: 300px;
-    height: 450px;
+    width: 340px;
+    height: 500px;
     margin: auto;
     text-align: center;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
 }
 
 .imgContainer{
@@ -35,18 +37,21 @@ background: hsl(220, 15%, 55%);
     width: 250px;
     height: 250px;
    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
+ margin: 20px;
 }
 
-.InfoContainer p{
-font-weight: 400;   
-margin-top: 10px;
 
-}
 
-.InfoContainer  span{
-    font-size: 20px;
+.Tytle {
+    font-size: 23px;
     font-weight: 700;
+   text-align: center;
+    margin-top: 15px 20px;
     color: hsl(218, 44%, 22%);
+}
+.text{
+    margin: 20px;
+  font-weight: 400;
+text-align: center;
+padding-bottom: 30px;  
 }
